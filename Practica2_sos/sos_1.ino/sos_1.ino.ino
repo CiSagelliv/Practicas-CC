@@ -7,7 +7,7 @@ int ledsito =13;
 void loop() {
   
     parpadeo(200); parpadeo(200); parpadeo(200); // S
-    delay(300); // otherwise the flashes run together
+    delay(300); 
     parpadeo(500); parpadeo(500); parpadeo(500); // O
     parpadeo(200); parpadeo(200); parpadeo(200); // S
     delay(1000);
