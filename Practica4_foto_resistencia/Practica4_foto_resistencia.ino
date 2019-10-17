@@ -16,7 +16,7 @@ void loop() {
   delay(50);
   if (valor_foto_resistencia < sensibilidad){
       digitalWrite(3, HIGH);
-    } else {
+  } else {
       digitalWrite(3, LOW);
-      }
+  }
 }
